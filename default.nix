@@ -13,7 +13,7 @@
     services.nginx.virtualHosts."myhost.org" = {
         addSSL = true;
         enableACME = true;
-        root = "/var/www/myhost.org";
+        root = "/usr/share/nginx/html/";
     };
 
   }
