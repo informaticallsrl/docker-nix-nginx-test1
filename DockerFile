@@ -8,4 +8,3 @@ RUN nix-build -A pythonFull '<nixpkgs>'
 RUN nix-env -iA nixpkgs.niv
 
 COPY index.html /usr/share/nginx/html/index.html
-ngn
